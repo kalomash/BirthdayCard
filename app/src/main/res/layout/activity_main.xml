@@ -7,15 +7,14 @@
     tools:context="myfirstapp.birthdaycard.MainActivity">
 
 
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/unnamed"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/unnamed" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,6 +28,7 @@
         android:id="@+id/textView" />
 
     <TextView
+        android:id="@+id/from"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="From, Dakalo"
